@@ -1,0 +1,73 @@
+.drum-pad {
+  background-color: darkblue;
+  width: 100px;
+  height: 80px;
+  border: 1px black solid;
+  padding: 5px;
+  margin: 2px;
+  display: inline-block;
+  align-self: center;
+  justify-self: center;
+  /* text-decoration: none; */
+  color: white;
+  font-size: 2em;
+  box-shadow: 5px 5px 5px black;
+}
+
+.drum-pad:hover {
+  background-color: lightgray;
+}
+
+#drum-machine {
+
+  display: flex;
+  border: 3px solid orange;
+   /* width: 700px; */
+  height: 400px; 
+  background-color: #04395e;
+  /* flex-direction: colum */
+}
+#drums {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  padding: 20px;
+  width: 350px;
+ /* grid-row-gap: 0px */
+}
+
+#display {
+  background-color: darkblue;
+  width:200px;
+  /* display: flex; */
+  text-align: center;
+  /* margin-right: 20px; */
+  line-height: 50px;
+  color: white;
+  height: 50px;
+  align-self: center;
+  justify-self: center;
+  /* margin-top: 55px */
+  font-size: 2em
+}
+#container {
+  display: flex;
+align-items: center;
+  justify-content: center;
+height: 100vh;
+flex-direction: column;
+}
+#author {
+  color: white;
+  font-size: 2em;
+}
+#drum-right {
+  display: flex;
+  /* flex-direction: column; */
+  justify-content: center;
+  align-items: center; 
+  width: 350px;
+  padding: 20px;
+}
+body {
+  background-color: #031d44;
+}
